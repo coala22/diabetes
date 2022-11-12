@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+_pycache_/
 *.py[cod]
 *$py.class
 
@@ -58,6 +58,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+db_dev.sqlite3
 db.sqlite3
 db.sqlite3-journal
 
@@ -92,7 +93,7 @@ ipython_config.py
 #Pipfile.lock
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
+_pypackages_/
 
 # Celery stuff
 celerybeat-schedule
@@ -127,3 +128,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.DS_Store
+
+media/
+staticfiles/
+.idea
+.ipynb_checkpoints/
+.vscode
